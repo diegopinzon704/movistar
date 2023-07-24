@@ -1,0 +1,156 @@
+/* --------------------------ESTILOS DE LA PAGINA WEB TELEFÓNICA MOVISTAR------------ */
+/* ---------------------------------------------------------------------------------- */
+
+/* -----------------------------TAMAÑO DEL CONTAINER--------------------------------- */
+
+.container {
+    width: auto;
+    height: auto;
+}
+
+/* --------------------------------------BORDE ---------------------------------------*/
+.borde {
+    border: 2px black solid;
+}
+
+/* -------------------------------------IMAGENES ----------------------------------------*/
+
+/* --------------------------------IMAGEN INDEX.PHP -------------------------------------*/
+.img1 {
+    height: 100%;
+    width: 100%;
+}
+/* movi 1 estilos */
+
+.movi{
+    width: 100%;
+    height: 500px;
+}
+
+
+
+/* ----------------------------TAMAÑO DE LA IMAGEN DEL DASHBOARD-------------------------*/
+.img2 {
+    width: 150px;
+    height: 150px;
+}
+
+
+/*---------------------------------------CENTRAR TITULOS-------------------------------*/
+
+/* ---------------------------------PARA CENTRAR NORMAL--------------------------------*/
+.centrar {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+/* ----------------------------PARA CENTRAR CON 1PX DE GRANDE-------------------------- */
+.centrar1 {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    height: 1px;
+}
+
+/* --------------------------------------COLORES---------------------------------------- */
+
+/* ----------------------COLOR DE FONDO DEL FORMULARIO DE INICIAR SESION ----------------*/
+.color {
+    background-color: rgb(116, 132, 255);
+}
+
+
+/* ----------COLOR DEL TITULO DE LA PAGINA LANZAMIENTO----------- */
+.color2 {
+    background-color: rgb(3, 3, 4);
+}
+
+/* ----------------------------------COLOR BLANCO--------------------------------------- */
+
+.blanco{
+    background-color: white;
+    
+}
+
+/* ---------------------------------TAMAÑO BOTONES---------------------------------------*/
+
+/* ------------ TAMAÑO DEL BOTON INGRESAR DEL FORMULARIO INICIAR SESION -----------------*/
+.input1 {
+    width: 100%;
+}
+
+/* ------------------TAMAÑO DE CAJAS DE LA IMAGEN Y FORMULARIO INICIAR SESION--------- */
+
+/* ----------------------------------IMAGEN------------------------------------------- */
+.caja1 {
+    width: 100%;
+    height: 700px;
+}
+
+/* -----------------------------------FOMULARIO INICIAR SESION------------------------ */
+.caja2 {
+    width: 100%;
+    height: 700px;
+}
+
+/* -------------TAMAÑO DE CAJAS DENTRO DEL CARD DE LA DERECHA EN EL DASHBOARD ----------*/
+
+.cajas {
+    width: 30%;
+    height: 50px;
+    
+}
+.dash{
+    width: 100%;
+    height: auto;
+}
+/*----------------------------- FLEXIBILIDAD------------------------------------------*/
+
+.flex {
+    display: flex;
+}
+
+/* --------------------------------- LETRA ----------------------------------------- */
+
+.letra{
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 19px;
+}
+.letra2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(4, 4, 4);
+}
+.letra3{
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 45px;
+    transition: font-size 0.5s;
+}
+.letra4{
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 30px;
+}
+#titulo {
+    font-size: 35px;
+    transition: font-size 0.7s;
+}
+
+/*  ------------------------ COLOR LINK OLVIDO CONTRASEÑA ---------------------------- */
+form  a{
+    color: white;
+}
+
+/* ---------------------@MEDIAS QUERIS IMAGEN INDEX.PHP DE LA PIRAMIDE ----------------*/
+
+@media screen and (max-width:800px) {
+    .caja1 {
+        width: auto;
+        height: auto;
+
+    }
+
+}
+
